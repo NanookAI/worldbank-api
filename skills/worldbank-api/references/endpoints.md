@@ -126,8 +126,9 @@ GET /v2/topic/8/indicator?format=json         # all indicators under a topic (pa
 
 ~70 databases. Most everyday series live in source **2** (World Development
 Indicators). You only need `source=` for multi-indicator calls, for series
-outside WDI (e.g. Worldwide Governance Indicators need `source=3`), or for
-monthly/quarterly frequencies.
+outside WDI (e.g. Worldwide Governance Indicators need `source=3` — see
+`indicators.md` for their renamed codes and quirks), or for monthly/quarterly
+frequencies.
 
 ```
 GET /v2/source?format=json&per_page=100       # list all sources

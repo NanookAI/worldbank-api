@@ -56,7 +56,8 @@ These were discovered by testing and are worth keeping accurate:
   ones with `region.value == "Aggregates"`.
 - There is **no server-side text search** for indicators; search client-side
   (source 2 catalog is one request at `per_page=2000`).
-- Worldwide Governance Indicators (CC.EST etc.) need `source=3` on data queries.
+- Worldwide Governance Indicators were renamed (`CC.EST` → `GOV_WGI_CC.EST`)
+  and need `source=3`; on that source `mrv`/`mrnev` fail — use `date=` ranges.
 - Localized paths (`/v2/zh/...`) translate labels only; `en`, `es`, `fr`,
   `ar`, `zh` are supported.
 
