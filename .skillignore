@@ -1,0 +1,17 @@
+# Excluded when packaging the skill into a .skill bundle.
+# Only SKILL.md and its references/ should ship inside the bundle.
+.git/
+.gitignore
+.clawhubignore
+.skillignore
+.claude/
+.claude-plugin/
+AGENTS.md
+CLAUDE.md
+README.md
+*-workspace/
+evals/
+feedback.json
+*.skill
+*.zip
+*.log

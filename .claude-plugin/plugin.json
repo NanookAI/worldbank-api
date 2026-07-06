@@ -1,0 +1,12 @@
+{
+  "name": "worldbank-api",
+  "displayName": "World Bank API",
+  "description": "Teaches AI agents to fetch GDP, population, inflation, and ~30,000 other development indicators for every economy with the free World Bank Indicators API (no API key required)",
+  "version": "1.0.0",
+  "author": {
+    "name": "NanookAI",
+    "email": "app030242@gmail.com"
+  },
+  "homepage": "https://github.com/NanookAI/worldbank-api",
+  "keywords": ["world-bank", "gdp", "economics", "development-indicators", "macroeconomics", "country-data", "api"]
+}
